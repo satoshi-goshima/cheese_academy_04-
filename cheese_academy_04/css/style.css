@@ -1,0 +1,401 @@
+@charset "utf-8";
+
+.text-center{
+    text-align: center;
+}
+
+p{
+    margin-top: 25px;    
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.line-height{
+    line-height: normal;
+}
+
+.ue-ake{
+    padding-top: 40px;
+}
+
+.sita-ake{
+    padding-bottom: 30px;
+}
+
+.uesita-ake{
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+/* ここまで全体 */
+
+.title-box{
+    position: relative;
+}
+
+.title-box div{
+    position: absolute;
+    top: 40%;
+    left: 23%;
+}
+
+.site-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 1.5%;
+}
+
+.site-title2{ 
+    font-size: 26px;
+    color: #fff;
+    padding-top: 70px;
+}
+
+.card-container{
+    display: flex;
+}
+
+.card-container div{
+    padding-left: 3%;
+}
+
+.logo-image{
+    width: 15%;
+    height: 15%;
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+.menu-list{
+    display: inline-flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 100%;
+    list-style: none;
+}
+
+.menu-list li{
+    padding: 14px;
+}
+
+/* ここまでheader */
+
+.about-ppt{
+    color: #ffd61a;
+    padding-top: 60px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* ここまでabout */
+
+.course-card-container{
+    display: flex;
+}
+
+.course-card-container-another{
+    display: flex;
+}
+
+.course-card-container div{
+    padding-left: 3%;
+    padding-top: 12%;
+}
+
+.course-card-container-another div{
+    padding-left: 14%;
+    padding-top: 12%;
+}
+
+.course-ppt{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.course-image{
+    width: 50%;
+    height: 50%;
+}
+
+.course-title{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.course-text{
+    background-color: aliceblue;
+    width: 50%;
+}
+
+.course-meisai{
+    font-size: small;
+}
+
+/* ここまでcourse */
+
+.news-pad{
+    margin-bottom: 40px;
+}
+
+.section-news-title {
+    margin-top: 24px;
+    padding-bottom: 64px;
+    background-color: #eee;
+    color: yellow;
+    text-align: center;
+}
+
+.section-news-title-en {
+    margin-top: 24px;
+    color: #222;
+}
+
+.section-news-list {
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    margin: auto;
+    /*
+    margin-left:auto;
+    margin-right:auto;
+    */
+    background: #f00;
+}
+
+.section-news-list__item {
+    width: 364px;
+}
+
+.news-heading{
+    color:#ffd61a;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 12.5px;
+    padding-top: 60px;
+}
+
+.news-subtitle{
+    margin-top: 15px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.news-text{
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+}
+
+.news-date{
+    font-size: x-small;
+    margin-top: 10px;
+}
+
+.news-inner{
+    width: 80%;
+    margin: auto;
+}
+
+.news-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news-item{
+    width: 32%;
+    padding-right: 2%;
+}
+
+.news-item2{
+    width: 32%;
+}
+
+.btn{
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    margin-left: 40%;
+    margin-right: 40%;
+    background: #FFd61a;
+    color: #fff;
+}
+
+/* ここまでnews */
+
+.access-area{
+    background-color: aliceblue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+.access-toptitle{
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+}
+
+
+.access-title{
+    font-weight: bold;
+    text-align: center;
+}
+
+.jouhou-ppt{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.access-title{
+    width: 120px;
+    font-weight: bold;
+    text-align: right;
+    margin: 0 20px 0 0;
+}
+
+.access-item{
+    text-align: left;
+    width: 360px;
+    margin: 0 0 18px;
+}
+
+/* ここまでaccess */
+
+.contact-area{
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.contact-toptitle{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.contact-title{
+    width: 140px;
+    font-weight: bold;
+    text-align: right;
+    margin: 0 20px 0 0;
+    padding: 8px 0 0 0;
+}
+
+.contact-title.check-radio{
+    padding: 0;
+}
+
+.contact-item{
+    width: 340px;
+    margin: 0 0 18px;
+}
+
+.contact-item.check-radio-list{
+    font-size: small;
+    line-height: 30px;
+}
+
+.contact-inner{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.contact-parts{
+    appearance:none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    border: solid 1px #c9c9c9;
+    font-size: 1.4rem;
+}
+
+.form-margin{
+    margin-left: -13%;
+}
+
+input[type*="radio"]{
+    appearance: none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    margin: 0 10px 0 0;
+    width: 16px;
+    height: 16px;
+    border: solid 1px #a0a0a0;
+    border-radius: 50%;
+    vertical-align: -2px;
+}
+
+input[type*="radio"]:checked{
+    background-color: #a0a0a0;
+}
+
+.btn-submit{
+    appearance: none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    border: none;
+    padding-left: 18%;
+    padding-right: 18%;
+    margin-left: 35%;
+}
+
+/* ここまでcontact */
+
+.footer{
+    margin-top: 80px;
+    background-color: #757575;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.copyrights{
+    color: #eee;
+    font-size: 12px;
+}
+
+/* ここまでfooter */
+
+html{
+    font-size: 62.5%;
+    /*16px × 62.5 = 10px 
+    htmlは基本16pxで表記されるから上記の記述で基準値を補正*/
+}
+
+body{
+    color: #333333;
+    font-family:"Open Sans",'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-serif;
+    font-size: 1.6rem;
+}
+
+
+
+
+/* ---------------
+
+CSSを適用していく時は、下記テンプレートをコピペして
+波括弧の間に命令を書くようにしましょう！
+
+↓↓↓↓↓↓↓↓↓↓↓↓↓↓ ここからテンプレート ↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+
+.nickname{
+
+}
+
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑ ここからテンプレート ↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
+---------------*/
+
+/*画面全体の基本設定*/
+
+/*画像を伸縮させるために必要*/
